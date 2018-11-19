@@ -5,7 +5,7 @@
 <br>
 교재: [길벗](http://www.gilbut.co.kr/)
 <br>
-회독 : ~ 1회독
+회독 : ~ 1
 <br><br>
 자료: [길벗출판사 깃허브](http://github.com/gilbutITbook/006946) / [저자 깃허브](https://github.com/velopert/learning-react)
 <br><br>
