@@ -1,0 +1,18 @@
+Node.js의 주요특징은 코드를 모듈화하여 재사용할 수 있다는 점이다.
+내장된 모듈도 많고 다른 사람이 만든 모듈도 npm으로 쉽게 찾아서 install 할 수 있으므로 강력하다.
+
+설치된 모듈을 js파일에 불러와 사용하는 법
+var fs = require('js');
+-> import fs from 'js';
+fs는 Node.js 내장 모듈 중 파일을 읽고 쓸 때 사용하는 모듈이다.
+
+import React, { Component } from 'react';
+=>
+var React = requre('react');
+var Component = React.Component;
+
+이렇게 import로 컴포넌트를 모듈화하는 방법은 Node.js의 런타임 기능이다.
+웹 브라우저에서 사용하는 자바스크립트는 Node.js로 실행하지 않기 때문에 html 안에 script로 불러오곤 한다.
+
+웹 브라우저에서 모듈화라는 특징을 구현하려면 번들링 도구를 이용해야한다.
+bundle = 묶는다.
