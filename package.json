@@ -1,0 +1,24 @@
+{
+  "name": "study-React",
+  "version": "1.0.0",
+  "description": "프레임워크 React 스터디",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hyejin2351/study-React.git"
+  },
+  "keywords": ["React","Study"],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hyejin2351/study-React/issues"
+  },
+  "homepage": "https://github.com/hyejin2351/study-React#readme",
+  "dependencies": {
+    "npm": "^6.4.1"
+  },
+  "devDependencies": {}
+}
