@@ -19,9 +19,23 @@ class IterationSample extends Component {
         })
     }
 
+    handleRemove = (index) => {
+        const { names } = this.state;
+
+        this.setState({
+            names: names.filter((item, i) => i !== index) /* filter로 index번째를 제외한 원소만 있는 새 배열 생성 */
+        });
+    }
+
     render() {
         const nameList = this.state.names.map(
-            (name, index) => (<li key={index}>{name}</li>)
+            (name, index) => (
+                <li
+                    key={index}
+                    onDoubleClick={() => this.handleRemove(index)}> {/* li 더블클릭하면 hnadleRemove() 메서드 실행 */}
+                    {name}
+                </li>
+            )
         )
         
         return (
