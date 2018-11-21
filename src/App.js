@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
-import './App.css';
-import ValidationSample from './ValidationSample';
+import ScrollBox from './ScrollBox';
 
 class App extends Component {
   render() {
     return (
       <React.Fragment>
-        <ValidationSample/>
+        <ScrollBox ref={(ref) => this.scrollBox=ref}/>
+        <button onClick={() => this.scrollBox.scrollToBottom()}>맨 밑으로</button>
       </React.Fragment>
     );
   }
